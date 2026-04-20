@@ -1,12 +1,24 @@
 # Python cache
 __pycache__/
 *.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
 
 # Packaging artifacts
 dist/
 build/
 *.egg-info/
 
+# Local runtime artifacts
+*.log
+*.tmp
+
 # Virtual environments
 .venv/
 venv/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
