@@ -146,7 +146,7 @@ import klimapy as klipy
 | DTR   | 月尺度日较差平均值（TX - TN）                   | `out = klipy.ETCCDI.DTR(tx, tn)`                            |
 
 ### 3.2 BCSD
- 当前 BCSD 模块仅用于降水变量，可分为“构建传递函数（Bias Correction）+ 插值与空间细化（Spatial Disaggregation）”两步。
+ 当前 BCSD 模块仅用于降水变量，可分为“偏差校正（Bias Correction）+ 空间降尺度（Spatial Disaggregation）”两步。
 ##### （1）构建传递函数
 传递函数按日序（day-of-year）逐日构建，并采用滑动时间窗增强样本量，具体流程如下：
 
