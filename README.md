@@ -340,5 +340,3 @@ pyt.Supporting_Tools.nc_to_tiff(
 ## 联系方式
 
 1. E-mail: yuhaoran251@mails.ucas.ac.cn
-   
-2. Wechat(username): @余浩然2002
