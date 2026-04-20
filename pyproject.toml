@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=65.0.0", "wheel", "setuptools-scm>=8.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "klimapy"
+version = "1.0.0"
+authors = [
+    {name = "YuHaoRan", email = "yuhaoran251@mails.ucas.ac.cn"}
+]
+description = "Python tools for climate data analysis including ETCCDI,BCSD modules"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+dependencies = [
+    "numpy>=1.20.0",
+    "pandas>=1.3.0",
+    "xarray>=0.18.0",
+    "tqdm>=4.60.0",
+    "cftime>=1.5.0"
+]
+
+[project.urls]
+"Bug Tracker" = "https://github.com/michalrees/klimapy/issues"
+"Source Code" = "https://github.com/michalrees/klimapy"
+
+[tool.setuptools.packages.find]
+where = ["src"]
